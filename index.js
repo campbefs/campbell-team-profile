@@ -4,8 +4,12 @@ const Profiler = require('./lib/Profiler');
 
 const promptUser = async() => {
 
-  const profiler = new Profiler().getData();
-  return profiler
+  const profiler = new Profiler();
+  return profiler.getData()
+
 }
 
-promptUser();
+promptUser()
+  .then(data => {
+    console.log(data);
+  });
