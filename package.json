@@ -1,0 +1,28 @@
+{
+  "name": "campbell-team-profile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/campbefs/campbell-team-profile.git"
+  },
+  "author": "campbefs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/campbefs/campbell-team-profile/issues"
+  },
+  "homepage": "https://github.com/campbefs/campbell-team-profile#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
