@@ -2,11 +2,10 @@ const { prompt } = require('inquirer');
 const Profiler = require('./lib/Profiler');
 
 
-const promptUser = () => {
-  // const profiler = new Profiler();
+const promptUser = async() => {
 
-  new Profiler().getData();
-
+  const profiler = new Profiler().getData();
+  return profiler
 }
 
 promptUser();
