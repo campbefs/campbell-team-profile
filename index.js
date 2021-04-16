@@ -1,6 +1,7 @@
 const { prompt } = require('inquirer');
 const Profiler = require('./lib/Profiler');
-
+const pageTemplate = require('./page-template.js');
+const writeFile = require('./dist/generate-site');
 
 const mainPrompts = () => {
 
@@ -11,7 +12,7 @@ const mainPrompts = () => {
 
 mainPrompts()
   .then(data => {
-    console.log('string: ', data);
+    // console.log(pageTemplate(data['employeeArr']));
+    writeFile(pageTemplate(data['employeeArr']));
   });
 
-// new Profiler().getData();
