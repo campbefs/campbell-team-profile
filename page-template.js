@@ -7,7 +7,7 @@ const generateData = employeeData => {
       return [eeDataType, eeData];
     } else if (data.role === 'Engineer') {
       const eeDataType = 'Github:';
-      const eeData = data.github;
+      const eeData = `<a href="${data.github}">GitHub</a>`;
       return [eeDataType, eeData];
     } else if (data.role === 'Intern') {
       const eeDataType = 'School:'
@@ -27,7 +27,7 @@ const generateData = employeeData => {
         <div class="employee-data">
           <ul class="data-ul">
             <li class="data-item">ID: ${employeeData.id}</li>
-            <li class="data-item">Email: ${employeeData.email}</li>
+            <li class="data-item">Email: <a href="mailto:${employeeData.email}">${employeeData.email}</a></li>
             <li class="data-item">${eeDataType} ${eeData}</li>
           </ul>
         </div>
