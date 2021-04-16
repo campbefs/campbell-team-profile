@@ -3,7 +3,68 @@
   margin: 0px;
   padding: 12px;
   text-align: center;
-  background-color: rgb(235, 66, 66);
+  background-color: navy;
   color: white;
   width: 100%;
 }
+
+/* .team-member {
+  margin-left:auto;
+  margin-right:auto;
+} */
+
+.holding-blocks {
+  margin-top: 100px;
+  margin-left: 23%;
+  margin-right: 23%;
+}
+
+.employees {
+  float: left;
+  width: 298px;
+  height: 255px;
+  border-radius: 5px;
+  margin: 10px;
+  margin-right: 20px;
+  padding: 0px;
+  background-color: slategray;
+  color: white;
+  box-shadow: 12px 12px 2px 1px rgba(104, 104, 122, 0.2);
+}
+
+.employee-top {
+  background-color:darkred;
+  width: 100%;
+  padding: 0.1px;
+  border-radius: 5px;
+  font-size: large;
+  font-style:oblique;
+  font-weight: bold;
+}
+
+.data-item {
+  padding-bottom: 5px;
+  background-color:rgb(215, 219, 223);
+  width: 280px;
+  padding-left: 5px;
+  font-size: 18px;
+  list-style-type: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  color:darkslategrey;
+  word-wrap: break-word;
+}
+
+.employee-name {
+  padding-left: 15px;
+}
+
+.data-ul {
+  padding-left: 5px;
+}
+
+.job-title {
+  padding-left: 15px;
+}
+
