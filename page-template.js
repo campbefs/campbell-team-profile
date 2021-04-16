@@ -1,17 +1,17 @@
 const generateData = employeeData => {
 
   const dataChecker = data => {
-    if (employeeData.role === 'Manager') {
+    if (data.role === 'Manager') {
       const eeDataType = 'Office Number:';
-      const eeData = employeeData.officeNumber;
+      const eeData = data.officeNumber;
       return [eeDataType, eeData];
-    } else if (employeeData.role === 'Engineer') {
+    } else if (data.role === 'Engineer') {
       const eeDataType = 'Github:';
-      const eeData = employeeData.github;
+      const eeData = data.github;
       return [eeDataType, eeData];
-    } else if (employeeData.role === 'Intern') {
+    } else if (data.role === 'Intern') {
       const eeDataType = 'School:'
-      const eeData = employeeData.school;
+      const eeData = data.school;
       return [eeDataType, eeData];
     };
   };
