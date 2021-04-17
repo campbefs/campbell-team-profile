@@ -9,4 +9,4 @@
 
 Deployed application can be found at: https://campbefs.github.io/campbell-team-profile/
 
-![alt text](src/screenshot.JPG "Live Application Screenshot")
+![alt text](src/screenshot1.JPG "Live Application Screenshot")
